@@ -2,18 +2,9 @@
   box-sizing: border-box;
 }
 
-.fondo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-
+body {
   background-color: lightgrey;
-  border: thin solid gray;
 
-  z-index: -3;
 }
 #nintendo {
   /* centramos verticalmente la patata */
@@ -49,12 +40,10 @@
 
 
 .pantalla {
-  position: absolute;
+  position: relative;
   margin: 0 auto;
   background-color: black;
-  width: 20em;
-  left: 50px;
-  right: 50px;
+  width: 19em;
   top: 1em;
   bottom: 1em;
   height: 18em;
@@ -69,8 +58,8 @@
 
 .bordeB {
   position: absolute;
-  width: 20em;
-  height: 18em;
+  width: 18.8em;
+  height: 17.8em;
   border: 1em solid white;
 }
 
@@ -111,6 +100,13 @@ background: lightgray;
 top: 0.7em;
 }
 
+.cuadrados1 {
+width: 8px;
+height: 8px;
+background: lightgray;
+bottom: 0.7em;
+}
+
 .derecha1 {
   position: absolute;
   right: 40px;
@@ -118,4 +114,55 @@ top: 0.7em;
 .izquierda1 {
   position: absolute;
   left: 40px;
+}
+
+.botones {
+  position: relative;
+  border: 1px solid black;
+  height: 5em;
+  width: 5em;
+  top: 6em;
+}
+
+.derecha2 {
+  position: absolute;
+  right: 0em;
+}
+.izquierda2 {
+  position: absolute;
+  left: 0 auto;
+
+  }
+.boton {
+     width: 20px;
+     height: 20px;
+     border: 1px solid lightgray;
+     background: white;
+     border-radius: 6em;
+     align-items: center;
+
+     display: flex;
+
+     justify-content: center;
+}
+
+#bX{
+  position: absolute;
+  left: 1.5em;
+  top: 0.5em;
+}
+#bY{
+  position: absolute;
+  left: 0.3em;
+  top: 1.8em;
+}
+#bA{
+  position: absolute;
+  left: 2.7em;
+  top: 1.8em;
+}
+#bB{
+  position: absolute;
+  left: 1.5em;
+  bottom: 0.5em;
 }
