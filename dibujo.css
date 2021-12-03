@@ -166,3 +166,12 @@ bottom: 0.7em;
   left: 1.5em;
   bottom: 0.5em;
 }
+
+#puntero {
+  width: 16.8em;
+  height: 16em;
+  cursor: url(imagenes/guante.png), pointer;
+}
+.cruzH {
+  
+}
