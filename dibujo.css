@@ -118,7 +118,7 @@ bottom: 0.7em;
 
 .botones {
   position: relative;
-  border: 1px solid black;
+
   height: 5em;
   width: 5em;
   top: 6em;
@@ -130,7 +130,7 @@ bottom: 0.7em;
 }
 .izquierda2 {
   position: absolute;
-  left: 0 auto;
+  left: 0.3em;
 
   }
 .boton {
@@ -212,17 +212,45 @@ bottom: 0.7em;
 }
 
 #LINEA1 {
-
+  position: absolute;
+  width: 3px;
+  height: 1em;
+  background-color: grey;
+  left: 7px;
+  top: 3px;
+  border-radius: 6em;
+  z-index: 3;
 }
 
 #LINEA2 {
-
+  position: absolute;
+  width: 3px;
+  height: 1em;
+  background-color: grey;
+  left: 7px;
+  bottom: 3px;
+  border-radius: 6em;
+  z-index: 3;
 }
 
 #LINEA3 {
-
+  position: absolute;
+  width: 1em;
+  height: 3px;
+  background-color: grey;
+  left: 3px;
+  bottom: 7px;
+  border-radius: 6em;
+  z-index: 3;
 }
 
 #LINEA4 {
-
+  position: absolute;
+  width: 1em;
+  height: 3px;
+  background-color: grey;
+  right: 3px;
+  bottom: 7px;
+  border-radius: 6em;
+  z-index: 3;
 }
