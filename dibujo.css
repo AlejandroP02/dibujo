@@ -134,8 +134,8 @@ bottom: 0.7em;
 
   }
 .boton {
-     width: 20px;
-     height: 20px;
+     width: 22px;
+     height: 22px;
      border: 1px solid lightgray;
      background: white;
      border-radius: 6em;
@@ -172,6 +172,57 @@ bottom: 0.7em;
   height: 16em;
   cursor: url(imagenes/guante.png), pointer;
 }
+
+.cruzV {
+  position: absolute;
+  top: 28px;
+  left: 0.5em;
+  width: 60px;
+  height: 23px;
+  border: 3px solid grey;
+}
+
 .cruzH {
-  
+  position: absolute;
+  top: 0.6em;
+  left: 26px;
+  width: 23px;
+  height: 60px;
+  border: 3px solid grey;
+}
+
+#H {
+  position: relative;
+  top: 1.1em;
+  left: -4px;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+}
+
+#V {
+  position: relative;
+
+
+  left: 18px;
+  top: -4px;
+  width: 17px;
+  height: 30px;
+  background-color: white;
+}
+
+#LINEA1 {
+
+}
+
+#LINEA2 {
+
+}
+
+#LINEA3 {
+
+}
+
+#LINEA4 {
+
 }
