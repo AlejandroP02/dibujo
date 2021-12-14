@@ -172,8 +172,6 @@ bottom: 0.7em;
 }
 
 #puntero {
-  width: 16.8em;
-  height: 16em;
   cursor: url(imagenes/guante.png), pointer;
 }
 
@@ -310,7 +308,6 @@ bottom: 0.7em;
 
 .caja {
   position: absolute;
-  border: 1px solid black;
   height: 4em;
   width: 5em;
   bottom: 1px;
@@ -342,7 +339,7 @@ bottom: 0.7em;
 #apagar_encender {
   position: absolute;
   bottom: 1em;
-  right: 0;
+  right: 0.2em;
   cursor: pointer;
   font-size: 0.8em;
   height: 20px;
