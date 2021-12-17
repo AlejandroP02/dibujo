@@ -172,7 +172,12 @@ bottom: 0.7em;
 }
 
 #puntero {
+  z-index: 2;
   cursor: url(imagenes/guante.png), pointer;
+}
+.bordeB div {
+  width: 16.8em;
+  height: 15.8em;
 }
 
 .cruzV {
@@ -358,13 +363,3 @@ bottom: 0.7em;
   width: 16.8em;
   height: 15.8em;
 }
-
-#parte2 {
-  position: absolute;
-  z-index: 1;
-  visibility: hidden;
-  animation: mario 10s infinite;
-}
-
-@keyframes mario {
-  50% {visibility: visible;}}
